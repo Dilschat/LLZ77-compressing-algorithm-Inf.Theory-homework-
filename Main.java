@@ -1,0 +1,10 @@
+import java.io.File;
+import java.io.IOException;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        lz771 compressor = new lz771(new File("comt.txt"));
+        compressor.uncompress();
+    }
+}
+
